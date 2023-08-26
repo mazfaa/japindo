@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Chivo';
+  src:
+    local('Chivo'),
+    url('../fonts/static/Chivo-Regular.ttf') format('truetype');
+}
+
+:root {
+  --bs-body-font-family: 'Chivo', sans-serif;
+}
+
+.carousel-item {
+  height: 600px !important;
+  background-size: cover;
+  background-position: 0 -17em;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, .6);
+  background-image: url('../img/home/carousel/carousel-1.jpg');
+}
+
+.btn {
+  transition: .5s;
+}
+
+.btn:hover {
+  opacity: .7;
+}
