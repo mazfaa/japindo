@@ -9,7 +9,17 @@
   --bs-body-font-family: 'Chivo', sans-serif;
 }
 
-.carousel-item {
+.carousel-item-1 {
+  height: 600px !important;
+  background-size: cover;
+  background-position: 0 -10em;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, .6);
+  background-image: url('../img/home/carousel/carousel-2.jpg');
+}
+
+.carousel-item-2 {
   height: 600px !important;
   background-size: cover;
   background-position: 0 -17em;
@@ -19,10 +29,47 @@
   background-image: url('../img/home/carousel/carousel-1.jpg');
 }
 
+.carousel-item-3 {
+  height: 600px !important;
+  background-size: cover;
+  background-position: 0 -1em;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, .6);
+  background-image: url('../img/home/carousel/carousel-3.jpg');
+}
+
+.carousel-item-4 {
+  height: 600px !important;
+  background-size: cover;
+  background-position: 0 -5em;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, .6);
+  background-image: url('../img/home/carousel/carousel-4.jpg');
+}
+
+.carousel-item-5 {
+  height: 600px !important;
+  background-size: cover;
+  background-position: 0 0em;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, .6);
+  background-image: url('../img/home/carousel/carousel-5.jpg');
+}
+
 .btn {
   transition: .5s;
 }
 
 .btn:hover {
   opacity: .7;
+}
+
+.about-page-hero-image {
+  height: 310px;
+  background-size: cover;
+  background-blend-mode: darken;
+  background: rgba(0, 0, 0, .6) url('../img/about/hero-image.jpg') no-repeat 0 -25em;
 }

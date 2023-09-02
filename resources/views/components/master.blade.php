@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>LPK Japindo Cianjur</title>
+  <title>Ichihara Jaya Cianjur</title>
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
   <!-- Bootstrap Icon -->
@@ -15,6 +15,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Chivo&display=swap" rel="stylesheet" />
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="{{ asset('assets/favicon/favicon-32x32.png') }}" sizes="32x32" />
+  <link rel="icon" type="image/png" href="{{ asset('assets/favicon/favicon-16x16.png') }}" sizes="16x16" />
   <!-- My CSS -->
   <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" />
 </head>
@@ -26,11 +29,11 @@
 
   <!-- Footer -->
   <footer class="text-white pt-5 px-5" style="background: rgb(7, 59, 101);">
-    <div class="container">
-      <div class="row text-center" style="font-size: 14px;">
-        <div class="col-4">
+    <div class="container" style="margin-bottom: 4em">
+      <div class="row" style="font-size: 14px;">
+        <div class="col-6 text-center">
           <h3>Social Media</h3>
-          <p>Ikuti berita terkini mengenai pelatihan kami melalui media social kami.</p>
+          <p>Ikuti berita terkini mengenai pelatihan kami melalui <br /> media social kami.</p>
 
           <div class="social-media">
             <a href="" class="nav-link d-inline-block me-3">
@@ -47,31 +50,24 @@
           </div>
         </div>
 
-        <div class="col-4">
-          <h3>Contact Us</h3>
-          <p style="line-height: 1.6;">
-            <i class="bi bi-telephone"></i> &nbsp; (0263) 2929989 <br />
-            <i class="bi bi-envelope"></i> &nbsp; lpkjapindo@yahoo.co.id <br />
-            <i class="bi bi-envelope"></i> &nbsp; ramdhan2605@yahoo.ne.jp <br />
-            {{-- <i class="bi bi-geo-alt"></i> &nbsp; Kp. Cirata Panjang RT 02 RW 04, Desa Ciherang, Kecamatan Karangtengah, Cianjur, Jawa Barat --}}
-          </p>
-        </div>
-
-        <div class="col-4">
+        <div class="col-6 text-center">
           <h3>Page Menu</h3>
           <p style="line-height: 1.6;">
-            <a class="nav-link d-inline-block me-3" href="/home">Home</a>
-            <a class="nav-link d-inline-block me-3" href="/about">About</a>
-            <a class="nav-link d-inline-block me-3" href="/contact">Contact</a>
-            <a class="nav-link d-inline-block me-3" href="/service">Service</a>
-            <a class="nav-link d-inline-block me-3" href="/blog">Blog</a>
+            <a class="nav-link d-inline-block me-2" href="/home">Home</a>
+            <a class="nav-link d-inline-block me-2" href="/about">About</a>
+            <a class="nav-link d-inline-block me-2" href="/contact">Contact</a>
+            <a class="nav-link d-inline-block me-2" href="/service">Service</a>
+            <a class="nav-link d-inline-block me-2" href="/blog">Blog</a>
+            <a class="nav-link d-inline-block me-2" href="/gallery">Gallery</a>
           </p>
         </div>
       </div>
     </div>
 
     <div class="row mt-5">
-      <p class="text-center" style="font-size: 13px; font-weight: 400;">&copy; 2023 Japindo Cianjur. Created by Muhammad Azfa Asykarulloh</p>
+      <p class="text-center pb-2" style="font-size: 13px; font-weight: 400;">
+        &copy; 2023 Ichihara Jaya Cianjur - Created by Muhammad Azfa Asykarulloh
+      </p>
     </div>
   </footer>
   <!-- /Footer -->
